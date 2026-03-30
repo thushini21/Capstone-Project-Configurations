@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/eca
+
+  mvc:
+    problemdetails:
+      enabled: true
+
+server:
+  port: 0
+
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${random.value}
+    prefer-ip-address: true
