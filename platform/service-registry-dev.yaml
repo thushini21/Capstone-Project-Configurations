@@ -1,0 +1,7 @@
+server:
+  port: 9001
+
+eureka:
+  client:
+    rejister-with-eureka: false
+    fetch-registry: false
